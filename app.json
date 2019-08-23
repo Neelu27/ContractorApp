@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Zing∞.in",
+    "slug": "ZingApp",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/zingoo1.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+     "package": "in.cioc.Zing",
+     "config":{
+       "googleSignIn":{
+         "apiKey":"AIzaSyD-IQ1Ohj4lDtV2-Nzpia7WN8NsC4J8Jc4",
+         "certificateHash":"3E23D53B109C2A5681FBB22E18D884C1A840DF19"
+       }
+     }
+   }
+  }
+}
